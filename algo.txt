@@ -1,0 +1,39 @@
+Repeat - repetição
+  [comandos]
+Until [condição];
+
+if [condição] then [comandos] (else [comando]); - condição, desvio de fluxo do programa
+
+gotoxy([valor em x],[valor em y]); - vai pra uma determinada parte da tela
+
+break; - quebra um loop (repetição)
+
+case [variavel a ser analizada] of - analiza uma variavel e testa seus valores
+  '0': [comandos];
+  'A': [comandos];
+  ' ': [comandos];
+  #13: [comandos];
+end;
+
+write([variavel/texto/arquivo]); - escreve na tela
+
+read([variavel]); - le um valor para uma variavel
+
+[variavel]:=[valor a ser recebido]; - atribui um valor à variave
+
+//comandos de arquivo
+assign([variavel do tipo "file" ou "text"], '[nome do arquivo no computador]'); - associa uma variavel à um arquivo
+reset([variavel]); - abre um arquivo para leitura
+rewrite([variavel]); - abre um arquivo para edição
+write([variavel tipo arquivo],[variavel]); - escreve um valor à uma variavel (da primeira à segunda)
+read([variavel tipo arquivo],[variavel]); - lê um valor à uma variavel (da primeira à segunda)
+close([variavel]); - fecha um arquivo
+
+readkey - le uma tecla precionada pelo usuario, sem a necessidade de apertar enter
+
+keypressed - usado para testar se uma tecla foi precionada
+
+upcase([parametro]) - lê o ultimo valor que foi incerido no programa, um caractere (uma tecla) 
+
+array[{um número}..{até onde o número vai}] of [tipo de variavel] - cria uma variavel com varias variaveis do mesmo tipo "dentro"
+

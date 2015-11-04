@@ -1,0 +1,33 @@
+v0.1
+	-colocação do corpo basico do programa 
+	-adicionado sistema de registro/login {Vh}
+v0.2
+	-agora o registro pode ser salvo depois de fechado
+	-só salva um registro por vez, se registrar mais de uma vez o antigo é apagado {Vh}
+v0.3
+	-adicionado o logo da etep + titulo {Jv}
+v0.4
+	-Comfirmação de saida {Vh}
+v0.5
+	-troca dos 'read(variavel)' por 'variavel:=readkey' nos menus {Vh}
+	-adicionado primeiras funções do jogo e o próprio jogo (provisório) {Vh}
+	-adicionada animação ao Balde ("personagem" do jogo) {Vh}
+	-adicionada função highScore, que mostra as melhores pontuações no jogo {Vh}
+v0.6
+	-Senhas agora não mostram os caracteres {Vh}
+	-removido o bug de confirmação de saída {Vh}
+v0.7
+	-tela de loading adicionada {An}
+	-adicionado sistema de rolamento aos textos {Vh}
+v0.8
+	-adicionado modelo de pergunta {An}
+	-sistema de pontuação criado {Vh}
+v0.9
+	-correção de bugs
+v1.0 (primeira verção beta)
+	-introdução das perguntas {An}
+	-introdução dos textos: material de estudo, como jogar
+v1.1
+	-Adicionado ao programa a imagem do mundo
+v1.2
+	-Correções de bugs menores relacionados a imagem
